@@ -1,0 +1,24 @@
+.Areas{
+    background-color:$oscuro1;
+    display: flex;
+    align-items: center;
+    img{
+     margin: 85px auto;
+     
+    }
+}
+
+@media only screen and (max-width:1366px){
+    .Areas{
+        background-color:$oscuro1;
+        width: 1366px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        img{
+         margin: 85px auto;
+         width: 100%;
+         display: none;
+        }
+    }
+}

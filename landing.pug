@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/styles.css")
+        link(href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet")
+        link(rel="stylesheet", href="css/fontAwesome/all.min.css")
+        link(rel="stylesheet", href="css/normalize.css")
+        title Riomecatronica
+    body
+        header.nav
+            h1.nav__logo Riomecatronica
+            ul.nav__menu
+                a.closeBtn
+                    <i class="fas fa-times"></i>
+                li 
+                    a(href="#hero") Inicio
+                li
+                    a(href="#services") Servicios
+                li 
+                    a(href="#contacto") Contacto
+            a.nav__burgerMenu(href="")
+                <i class="fas fa-bars"></i>
+        section.Welcome#hero
+            h1.Welcome__title Automatizacion industrial
+            h3.Welcome__subtitle Lleva tus ideas a otro nivel
+            button.button__CTA <i class="fab fa-whatsapp"></i> Contactar
+
+            <svg class="scrollDown" xmlns="http://www.w3.org/2000/svg" width="40" height="22.871" viewBox="0 0 40 22.871">
+                <a href="#areas">
+                    <path id="Icon_ionic-ios-arrow-down" data-name="Icon ionic-ios-arrow-down" d="M26.195,27.223,41.32,12.086a2.846,2.846,0,0,1,4.037,0,2.883,2.883,0,0,1,0,4.049L28.22,33.284a2.853,2.853,0,0,1-3.942.083L7.021,16.147A2.859,2.859,0,1,1,11.058,12.1Z" transform="translate(-6.188 -11.246)" fill="#fff"/>
+                </a>
+            </svg>
+        .altAreas
+            h2 Expertos en 
+            ul 
+                li Neumatica
+                li Electronica 
+                li Robotica
+                li Mecanica
+                li Ingenieria industrial
+                li Hidraulica
+        .Areas#areas
+            img.Areas__img(src="src/areas.png", alt="our areas")
+        .trust1
+            .trust1__info1
+                span +
+                span.countS 
+                p años de <br> experiencia
+                      
+                    
+            .trust1__info2
+                span +
+                span.countS2 
+                p proyectos <br>exitosos
+        .services#services
+            .services__titulo
+                h2 Servicios
+                .yellowLine
+            .services__wrap
+                .services__cards--desing
+                    img(src="src/crop.png", alt="")
+                    .service_text
+                        h3 Diseño y construccion
+                        .yellowLine2
+                        p Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.  <br>Porro consequatur a <br>placeat ducimus
+                .services__cards--desing
+                    img(src="src/maintenance.png", alt="")
+                    .service_text
+                        h3 Mantenimiento
+                        .yellowLine2
+                        p Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.  <br>Porro consequatur a <br>placeat ducimus
+                .services__cards--desing
+                    img(src="src/cargo.png", alt="")
+                    .service_text
+                        h3 Importacion 
+                        .yellowLine2
+                        p Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.  <br>Porro consequatur a <br>placeat ducimus
+                .services__cards--desing
+                    img(src="src/idea.png", alt="")
+                    .service_text
+                        h3 Asesoramiento
+                        .yellowLine2
+                        p Lorem ipsum dolor sit <br>amet consectetur adipisicing elit.  <br>Porro consequatur a <br>placeat ducimus
+        
+        .contact#contacto
+            .contact__title
+                h2 Contacto
+                .yellowLine
+            .contact__container
+                .contact__datos
+                    .contact__datos--phone.contactCards
+                        img(src="src/svg/phone.png", alt="telefono")
+                        h3 Telefono
+                        p XXX-XXX-XXX
+                    .contact__datos--ubicacion.contactCards
+                        img(src="src/svg/location.png", alt="ubicacion")
+                        h3 Ubicacion
+                        p XXX-XXXX-XXX
+                .contact__formulario
+                    form(action="#" method="post")
+                        input(type="text" placeholder="Nombre" name="name" required)
+                        input(type="email", name="email" required placeholder="Email")
+                        .textArea
+                            label.messageLabel(for="message") Escribenos tus dudas
+                            textarea(name="message", cols="30", rows="auto" )
+                        input(type="submit" value="Enviar")
+         
+        footer
+            .social
+                ul
+                    li
+                        a: <i class="fab fa-instagram"></i>
+                    li
+                        a: <i class="fab fa-facebook-f"></i>
+                    li
+                        a: <i class="fab fa-twitter"></i>  
+            .infoFooter
+                p Diseñado y desarollado por <a>Hippie Brothers <i class="fas fa-peace"></i></a>
+                p @Riomecatronica
+        script(src="js/app.js")
+        script(src="https://unpkg.com/scrollreveal")
+        script(src="js/scrollReveal.js")
+        script(src="js/nav.js")
+

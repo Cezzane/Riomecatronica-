@@ -1,0 +1,138 @@
+@media only screen and (max-width: 700px) {
+  .services {
+    background-color: $oscuro1;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    &__titulo {
+      @include sectionTitle;
+    }
+    .services__wrap {
+      margin: 0 auto;
+      display: grid;
+      width: 90%;
+      grid-template-columns: auto;
+      grid-template-rows: auto auto;
+      align-items: center;
+      justify-content: center;
+      grid-gap: 0 40px;
+    }
+    .services__cards--desing {
+      @include service_cards;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      flex-direction: column;
+      padding: 10px;
+      margin-top: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      img {
+        width: 70px;
+        height: 70px;
+      }
+      .service_text {
+        width: 90%;
+        margin: 0 20px;
+        h3 {
+          color: white;
+          font-size: 20px;
+          font-weight: 300;
+          margin: 10px auto;
+        }
+        .yellowLine2 {
+          height: 3px;
+          background-color: $amarillo;
+          margin: 7.5px auto;
+
+          width: 171px;
+        }
+        p {
+          margin-top: 10px;
+          color: white;
+        }
+      }
+    }
+  }
+  .trust1 {
+    background-color: $oscuro2;
+    border-top: solid 1px #707070;
+    border-bottom: solid 1px #707070;
+    height: 172px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+  }
+  .contact {
+    &__container {
+      margin: auto 20px;
+      display: flex;
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    &__datos {
+        margin: 20px auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        &--ubicacion{
+          margin: 0;
+        }
+      }
+    
+
+    &__formulario {
+      margin-left: 0;
+      background-color: $oscuro2;
+      width: 100%;
+      height: 514px;
+      padding: 35px 30px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      justify-content: center;
+    }
+  }
+  .Areas{
+    background-color:$oscuro1;
+    width: 100%;
+    align-items: center;
+    img{
+     width:90%;
+     display: none;
+    }
+}
+  .altAreas{
+    background-color: $oscuro1;
+    padding: 0;
+    color: white;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: block;
+    padding: 15px;
+
+    h2{
+        color: $amarillo;
+        width: 100%;
+        margin: 0px;
+    }
+    ul{
+        width: 80%;
+        margin:20px auto;
+        padding: 0;
+    }
+    li{
+        list-style: none;
+        padding:15px;
+        margin: 10px;
+        background-color: $oscuro2;
+    }
+  }
+}

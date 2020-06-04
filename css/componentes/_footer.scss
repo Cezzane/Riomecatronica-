@@ -1,0 +1,38 @@
+footer{
+    height: 150px;
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .social{
+        color: white;
+        height:40px;
+        border-radius: 10px;
+        align-items: center;
+        ul{
+            li{
+                padding: 0 20px;
+                display: inline;
+                a{
+                    color: white;
+                    font-size: 35px;
+                    cursor: pointer;
+                    &:hover{
+                    font-size: 30px;
+                    }
+                }
+            }
+        }
+        }
+    .infoFooter{
+        margin-top: 10px;
+        color: white;
+        font-size: 15px;
+        display: block;
+        text-align: center;
+        line-height: 30px;
+        }
+    
+}

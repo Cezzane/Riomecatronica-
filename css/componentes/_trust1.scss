@@ -1,0 +1,41 @@
+.trust1{
+    background-color: $oscuro2;
+    border-top:solid 1px #707070;
+    border-bottom:solid 1px #707070;
+    height: 172px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    
+    &__info1{
+        display: flex;
+        span{
+            color: $amarillo;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: $fuente2;
+        }
+        p{
+            margin: 0;
+            margin-left:10px;
+            color: white;
+            font-size: 25px;
+        }
+    }
+    &__info2{
+        display: flex;
+        span{
+            color: $amarillo;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: $fuente2;
+        }
+        p{
+            margin: 0;
+            margin-left: 10px;
+            color: white;
+            font-size: 25px;
+        }
+    }
+    
+}

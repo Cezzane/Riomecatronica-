@@ -1,0 +1,7 @@
+.trust2{
+    background-color: $oscuro1;
+    height: 700px;
+    .trust_title{
+        @include sectionTitle;
+    }
+}

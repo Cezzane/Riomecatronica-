@@ -1,0 +1,76 @@
+.Welcome{
+    background-image:url("../src/14331.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #1d1d1d;
+    min-height: 760px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__title{
+        color: #ffffff;
+        font-size: 6.8vh;
+        text-align: center;
+
+    }
+    &__subtitle{
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 3vh;
+    }
+    button {
+        @include btn__CTA;
+    }
+   
+      
+       
+    svg{
+        cursor: pointer;
+        margin-top: 270px;
+        position: absolute; 
+        animation: $bounceAnimation;
+        a{
+            margin: 20px;
+        }
+       
+    }
+
+}
+/*Responsive*/
+/*@media only screen and (max-width:1366px){
+    .Welcome{
+        background-image:url("../src/14331.png");
+        background-color: #1d1d1d;
+        min-height:500px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        &__title{
+            color: #ffffff;
+            font-size: 30px;
+    
+        }
+        &__subtitle{
+            color: #ffffff;
+            font-weight: 500;
+            font-size: 20px;
+        }
+        button {
+            @include btn__CTA;
+        }
+        svg{
+            cursor: pointer;
+            margin-top: 170px;
+            position: absolute; 
+            animation: $bounceAnimation;
+            a{
+                margin: 20px;
+            }
+           
+        }
+    }
+}*/

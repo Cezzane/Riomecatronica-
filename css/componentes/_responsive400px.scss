@@ -1,0 +1,41 @@
+@media only screen and (max-width: 400px) {
+    .contact {
+        &__container {
+          margin: auto 20px;
+          display: flex;
+          box-sizing: border-box;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        &__datos {
+            margin: 20px auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            box-sizing: border-box;
+            .contactCards{
+                width: 45%;      
+                 padding-top: 25px ;     
+                img{
+                    width: 40px;
+                }
+                h3{
+                    margin: 5px;
+                }
+            }
+          }
+        
+    
+        &__formulario {
+          margin-left: 0;
+          background-color: $oscuro2;
+          width: 100%;
+          height: 514px;
+          padding: 35px 30px;
+          box-sizing: border-box;
+          border-radius: 10px;
+          justify-content: center;
+        }
+      }
+}
